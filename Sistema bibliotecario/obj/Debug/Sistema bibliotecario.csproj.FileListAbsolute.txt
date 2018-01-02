@@ -273,6 +273,7 @@ C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debu
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.pdb
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\BarcodeLib.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaNegocio.dll
+C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\itextsharp.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.Design.dll
@@ -312,6 +313,7 @@ C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debu
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.Build.Framework.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\VSLangProj2.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaNegocio.pdb
+C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\itextsharp.xml
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaDatos.pdb
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaDatos.dll.config
@@ -362,15 +364,19 @@ C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debu
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.exe.config
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.acercade.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmAutor.resources
+C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmBuscarLibro.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmEditorial.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmLibros.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmMonitordeEventos.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmPrestamo.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmPrestamos.resources
+C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmReportes.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmSancion.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmSancionesO.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmSancionO.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmUsuario.resources
+C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmVerPrestamos.resources
+C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.ListSProcedureTEST.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.LoginAcceso.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.MenunPrincipal.resources
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.Properties.Resources.resources
@@ -380,7 +386,3 @@ C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debu
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.application
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.exe
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.pdb
-C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmVerPrestamos.resources
-C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmReportes.resources
-C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmBuscarLibro.resources
-C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.ListSProcedureTEST.resources

@@ -99,7 +99,7 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(564, 194);
+            this.btnVolver.Location = new System.Drawing.Point(564, 169);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(100, 38);
             this.btnVolver.TabIndex = 75;

@@ -226,7 +226,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>m//7WBx+iTKfso+8wSlIT/akAsVj+y2PhWzOQRstpvg=</dsig:DigestValue>
+        <dsig:DigestValue>aD6Xx+Je60mYdXl+zNgYsmJVP7J3pJeSpLDgf53RP28=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -238,7 +238,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>a6mA7ud8HbJPCrQL2mvYCAX4LkAT+qhE8QlrZrbh7WA=</dsig:DigestValue>
+        <dsig:DigestValue>LUrjXYMRSSToBcA1a4cr3eSEGPbzhhr3xCkWMsS+K7s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -263,6 +263,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>Vn38WjpL8ZHAgy2vSAAC+Ff616Eb8iVBR4KpaOBYACs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="4059136">
+      <assemblyIdentity name="itextsharp" version="5.5.10.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sMuANLVD/qDi+h6UlWBHrb4CHdSrUiq1s83Ekk3rO14=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1131,14 +1143,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sistema bibliotecario.exe" size="2681784">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sistema bibliotecario.exe" size="2689976">
       <assemblyIdentity name="Sistema bibliotecario" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1Ddkcqjsg1hRrrZEgZcBDPg+o79gpYQBOb3pq4lY8mc=</dsig:DigestValue>
+        <dsig:DigestValue>zr6pp4Zjq0lris1EioMmn1yTyvAu2PZcFxdOz7rRqEE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1196,7 +1208,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>HGc8hysBs6nHpkLmt54shw0iK58dYHDu8ciCBpOrmh4=</dsig:DigestValue>
+      <dsig:DigestValue>xWMihbK9nb2ishk8uOjmb4G9aA4Pr0kyOcHi3zm6CpY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="CapaNegocio.pdb" size="44544">
@@ -1205,7 +1217,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>SClRcUrH/96MTLF2+g/dbosqBJACyYJVDieGdQFCqY4=</dsig:DigestValue>
+      <dsig:DigestValue>yro/atiDe0Xlgxg49igW0jRW+CrVXNEM4dpAefPtTwA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Sistema bibliotecario.exe.config" size="2034">
@@ -1217,13 +1229,13 @@
       <dsig:DigestValue>GHv1mh2GfZv9JAeDet5E7OtIHTGUfaeR4Mr1X9szl0U=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Sistema bibliotecario.pdb" size="228864">
+  <file name="Sistema bibliotecario.pdb" size="239104">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>me/DLYOIEFm4BDWRnWbPfWE/NI1z2nyEfoGNZgwFEec=</dsig:DigestValue>
+      <dsig:DigestValue>XyCM8oi7+9HjAvK78JYUOds1pU1oQaWxWalMu+yzUYk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SqlServerTypes\readme.htm" size="2369">
