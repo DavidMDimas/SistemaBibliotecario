@@ -55,8 +55,6 @@
             this.cbReporte = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.chartLibros = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartUsuarios = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.txtAlMasc = new System.Windows.Forms.TextBox();
@@ -223,7 +221,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(768, 430);
+            this.label7.Location = new System.Drawing.Point(762, 412);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(73, 13);
             this.label7.TabIndex = 43;
@@ -231,7 +229,7 @@
             // 
             // txtTotalLibros
             // 
-            this.txtTotalLibros.Location = new System.Drawing.Point(862, 427);
+            this.txtTotalLibros.Location = new System.Drawing.Point(856, 409);
             this.txtTotalLibros.Name = "txtTotalLibros";
             this.txtTotalLibros.Size = new System.Drawing.Size(100, 20);
             this.txtTotalLibros.TabIndex = 42;
@@ -269,26 +267,6 @@
             this.groupBox2.TabIndex = 44;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Generar PDF";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(12, 425);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 46;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(105, 420);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 47;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // chartLibros
             // 
@@ -414,8 +392,6 @@
             this.Controls.Add(this.txtAlMasc);
             this.Controls.Add(this.chartUsuarios);
             this.Controls.Add(this.chartLibros);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtTotalLibros);
@@ -466,8 +442,6 @@
         private System.Windows.Forms.ComboBox cbReporte;
         private System.Windows.Forms.Button btnGenerarTodo;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartLibros;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartUsuarios;
         private System.Windows.Forms.TextBox txtAlMasc;

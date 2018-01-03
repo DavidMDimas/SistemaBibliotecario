@@ -89,9 +89,9 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(479, 69);
+            this.btnBuscar.Location = new System.Drawing.Point(497, 66);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(97, 31);
+            this.btnBuscar.Size = new System.Drawing.Size(79, 33);
             this.btnBuscar.TabIndex = 57;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -100,7 +100,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(364, 31);
+            this.label1.Location = new System.Drawing.Point(401, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 55;
@@ -108,9 +108,9 @@
             // 
             // txtApellidos
             // 
-            this.txtApellidos.Location = new System.Drawing.Point(419, 27);
+            this.txtApellidos.Location = new System.Drawing.Point(456, 27);
             this.txtApellidos.Name = "txtApellidos";
-            this.txtApellidos.Size = new System.Drawing.Size(92, 20);
+            this.txtApellidos.Size = new System.Drawing.Size(142, 20);
             this.txtApellidos.TabIndex = 56;
             // 
             // label5
@@ -126,7 +126,7 @@
             // 
             this.txtCarreraSancion.Location = new System.Drawing.Point(57, 66);
             this.txtCarreraSancion.Name = "txtCarreraSancion";
-            this.txtCarreraSancion.Size = new System.Drawing.Size(151, 20);
+            this.txtCarreraSancion.Size = new System.Drawing.Size(171, 20);
             this.txtCarreraSancion.TabIndex = 31;
             // 
             // label3
@@ -142,7 +142,7 @@
             // 
             this.txtNombreSancion.Location = new System.Drawing.Point(248, 28);
             this.txtNombreSancion.Name = "txtNombreSancion";
-            this.txtNombreSancion.Size = new System.Drawing.Size(92, 20);
+            this.txtNombreSancion.Size = new System.Drawing.Size(147, 20);
             this.txtNombreSancion.TabIndex = 29;
             // 
             // label2
@@ -159,7 +159,7 @@
             this.txtMatriculaSancion.Location = new System.Drawing.Point(60, 28);
             this.txtMatriculaSancion.Name = "txtMatriculaSancion";
             this.txtMatriculaSancion.ShortcutsEnabled = false;
-            this.txtMatriculaSancion.Size = new System.Drawing.Size(100, 20);
+            this.txtMatriculaSancion.Size = new System.Drawing.Size(128, 20);
             this.txtMatriculaSancion.TabIndex = 27;
             this.txtMatriculaSancion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMatriculaSancion_KeyPress);
             // 
@@ -176,7 +176,7 @@
             // 
             this.txtCorreoSancion.Location = new System.Drawing.Point(288, 66);
             this.txtCorreoSancion.Name = "txtCorreoSancion";
-            this.txtCorreoSancion.Size = new System.Drawing.Size(107, 20);
+            this.txtCorreoSancion.Size = new System.Drawing.Size(152, 20);
             this.txtCorreoSancion.TabIndex = 39;
             // 
             // label12
@@ -214,7 +214,7 @@
             // btnGuardar
             // 
             this.btnGuardar.Enabled = false;
-            this.btnGuardar.Location = new System.Drawing.Point(724, 140);
+            this.btnGuardar.Location = new System.Drawing.Point(724, 135);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(100, 38);
             this.btnGuardar.TabIndex = 3;
@@ -338,7 +338,7 @@
             // btnEntrega
             // 
             this.btnEntrega.Enabled = false;
-            this.btnEntrega.Location = new System.Drawing.Point(724, 205);
+            this.btnEntrega.Location = new System.Drawing.Point(724, 179);
             this.btnEntrega.Name = "btnEntrega";
             this.btnEntrega.Size = new System.Drawing.Size(100, 38);
             this.btnEntrega.TabIndex = 69;

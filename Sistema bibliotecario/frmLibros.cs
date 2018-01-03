@@ -21,8 +21,6 @@ namespace Sistema_bibliotecario
             InitializeComponent();
         }
 
-
-
         private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -159,32 +157,37 @@ namespace Sistema_bibliotecario
 
         private void dataListado_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            try { 
+                this.txtISBN.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["isbn"].Value);
+                this.txtTitulo.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["titulo"].Value);
+                this.txtcbLengua.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["lenguaje"].Value);
+                this.txtcbEditorial.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["editorial"].Value);
+                this.txtcbPublicacion.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["publicacion"].Value);
+                this.txtcbGenero.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["genero"].Value);
+                this.txtDisponibilidad.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["disponibilidad"].Value);
+                this.txtComentarios.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["comentarios"].Value);
+                this.txtcbAutor.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["autores"].Value);
+                this.txtcbEdicion.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["edicion"].Value);
+                this.txtdpFechaEdicion.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["fechaedicion"].Value);
+                this.txtNPaginas.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["npaginas"].Value);
+                this.txtcbMateria.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["materia"].Value);
+                this.txtcbSubgenero.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["subgenero"].Value);
+                this.txtUbicacion.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["ubicacion"].Value);
+                this.txtTag.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["tag"].Value);
+                this.txtCodigoBarras.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["codigobarras"].Value);
 
-            this.txtISBN.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["isbn"].Value);
-            this.txtTitulo.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["titulo"].Value);
-            this.txtcbLengua.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["lenguaje"].Value);
-            this.txtcbEditorial.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["editorial"].Value);
-            this.txtcbPublicacion.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["publicacion"].Value);
-            this.txtcbGenero.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["genero"].Value);
-            this.txtDisponibilidad.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["disponibilidad"].Value);
-            this.txtComentarios.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["comentarios"].Value);
-            this.txtcbAutor.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["autores"].Value);
-            this.txtcbEdicion.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["edicion"].Value);
-            this.txtdpFechaEdicion.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["fechaedicion"].Value);
-            this.txtNPaginas.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["npaginas"].Value);
-            this.txtcbMateria.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["materia"].Value);
-            this.txtcbSubgenero.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["subgenero"].Value);
-            this.txtUbicacion.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["ubicacion"].Value);
-            this.txtTag.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["tag"].Value);
-            this.txtCodigoBarras.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["codigobarras"].Value);
 
+                //checa esta parte para visualizar una imagen
+                byte[] imagenBuffer = (byte[])this.dataListado.CurrentRow.Cells["imagen"].Value;
+                System.IO.MemoryStream ms = new System.IO.MemoryStream(imagenBuffer);
 
-            //checa esta parte para visualizar una imagen
-            byte[] imagenBuffer = (byte[])this.dataListado.CurrentRow.Cells["imagen"].Value;
-            System.IO.MemoryStream ms = new System.IO.MemoryStream(imagenBuffer);
-
-            this.imgUpload.Image = Image.FromStream(ms);
-            this.imgUpload.SizeMode = PictureBoxSizeMode.StretchImage;
+                this.imgUpload.Image = Image.FromStream(ms);
+                this.imgUpload.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
         }
 
         private void frmLibros_Load(object sender, EventArgs e)
@@ -208,8 +211,15 @@ namespace Sistema_bibliotecario
 
         private void txtISBN_TextChanged(object sender, EventArgs e)
         {
-            this.dataListado.DataSource = NLibros.BuscarISBN(this.txtISBN.Text);
-            txtCodigoBarras.Text = txtISBN.Text;
+            try
+            {
+                this.dataListado.DataSource = NLibros.BuscarISBN(this.txtISBN.Text);
+                txtCodigoBarras.Text = txtISBN.Text;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
 
         }
 
@@ -287,7 +297,14 @@ namespace Sistema_bibliotecario
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
-            this.dataListado.DataSource = NLibros.Mostrar();
+            try
+            {
+                this.dataListado.DataSource = NLibros.Mostrar();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)

@@ -21,6 +21,11 @@ namespace Sistema_bibliotecario
 
         private DataTable dtLibros;
 
+        public frmBuscarLibro()
+        {
+            InitializeComponent();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             string query = "select IdLibro,isbn from Libros where isbn="+txtBusqueda.Text;
@@ -94,8 +99,15 @@ namespace Sistema_bibliotecario
 
         private void frmBuscarLibro_Load(object sender, EventArgs e)
         {
-            txtBusqueda.Select();
-            this.CrearTabla();
+            try
+            {
+                txtBusqueda.Select();
+                this.CrearTabla();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
         }
 
         private void txtBusqueda_KeyPress(object sender, KeyPressEventArgs e)
@@ -104,12 +116,7 @@ namespace Sistema_bibliotecario
             {
                 validaciones.solonumeros(e);
             }
-        }
-
-        public frmBuscarLibro()
-        {
-            InitializeComponent();
-        }
+        }        
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {

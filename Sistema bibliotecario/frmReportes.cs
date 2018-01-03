@@ -525,7 +525,7 @@ namespace Sistema_bibliotecario
             {
                 Document doc = new Document(PageSize.LETTER);
 
-                PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(@"..\prueba.pdf", FileMode.Create));
+                PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(@"..\Reporte Biblioteca.pdf", FileMode.Create));
 
                 doc.AddTitle("Reportes");
                 doc.AddCreator("Juan Mora");

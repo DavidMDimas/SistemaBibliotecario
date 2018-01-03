@@ -123,7 +123,7 @@ namespace Sistema_bibliotecario
                     //MessageBox.Show("Aun no tienes sanciones pero tienes libros que no has entregado", "Libros pendientes de entrega", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     frmVerPrestamos frm = new frmVerPrestamos();
                     frm.txtMatricula.Text = txtMatricula.Text;
-
+                    frm.MdiParent = this.MdiParent;
                     frm.Show();
                     //this.Hide();
 
@@ -429,17 +429,26 @@ namespace Sistema_bibliotecario
 
             frm.txtFechaSancion.Value = txtFechaLimite.Value;
 
+            frm.MdiParent=this.MdiParent;
             frm.Show();
             this.Hide();
         }
 
         private void frmPrestamos_Load(object sender, EventArgs e)
         {
-            this.txtMatricula.Select();
-            gbLibros.Enabled = false;
-            txtdtFechaPrestamo.Value= DateTime.Now;
-            txtdtPrimerRenovacion.Value=DateTime.Today.AddDays(3);
-            txtdtSegundaRenovacion.Value = DateTime.Today.AddDays(6);
+            try
+            {
+                this.txtMatricula.Select();
+                gbLibros.Enabled = false;
+                txtdtFechaPrestamo.Value = DateTime.Now;
+                txtdtPrimerRenovacion.Value = DateTime.Today.AddDays(3);
+                txtdtSegundaRenovacion.Value = DateTime.Today.AddDays(6);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
+
         } 
 
         private void button2_Click(object sender, EventArgs e)
@@ -550,13 +559,21 @@ namespace Sistema_bibliotecario
         private void btnAbrirSanciones_Click(object sender, EventArgs e)
         {
             frmSancionesO frm = new frmSancionesO();
+
+            frm.MdiParent = this.MdiParent;
             frm.Show();
         }
 
         private void btnEliminarTodo_Click(object sender, EventArgs e)
         {
-            Eliminar();
-            LimpiarDT();
+            try { 
+                Eliminar();
+                LimpiarDT();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
         }
     }
 }

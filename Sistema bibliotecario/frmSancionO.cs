@@ -46,7 +46,7 @@ namespace Sistema_bibliotecario
                 }
 
                 this.dataListado.DataSource = NSancionO.BuscarSancionMatricula(this.txtMatriculaSancion.Text);
-
+                
                 dr.Close();
                 SqlCon.Close();
                 getDataLista();
@@ -251,8 +251,11 @@ namespace Sistema_bibliotecario
 
                 if (fechaLimite < fechaActual && estatus > 0)
                 {
+
                     //MessageBox.Show("Sancion Requerida excediste la fecha limite para entregar los libros","Sancion necesaria", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     NPrestamo.SancionarPrestamos(Convert.ToString(txtMatriculaSancion.Text));
+
+                    fecha();
                     rechazado(true);
                 }
                 else if (fechaLimite >= fechaActual && estatus > 0)
@@ -278,6 +281,18 @@ namespace Sistema_bibliotecario
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message + ex.StackTrace);
+            }
+        }
+
+        private bool Aceptado(string adeudo)
+        {
+            if(adeudo=="Rechazado" || adeudo == "")
+            {
+                return false;
+            }
+            else
+            {
+                return true;
             }
         }
 
@@ -355,14 +370,14 @@ namespace Sistema_bibliotecario
         
         private void btnVerificar_Click(object sender, EventArgs e)
         {
-            if (txtReferencia.Text == "12345678TESI")
+            if (txtReferencia.Text == "12345678TESI" && Aceptado(lblAdeudo.Text)==false)
             {
                 btnGuardar.Enabled = true;
             }
             else
             {
                 btnGuardar.Enabled = false;
-                MessageBox.Show("Verificar que la referencia introducida sea correcta",
+                MessageBox.Show("Verificar que la referencia introducida sea correcta, o el alumno no adeuda ningun libro",
                     "Referencia invalida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
@@ -387,6 +402,7 @@ namespace Sistema_bibliotecario
         private void btnVolverPrestamos_Click(object sender, EventArgs e)
         {
             frmPrestamos frm = new frmPrestamos();
+            frm.MdiParent = this.MdiParent;
             frm.Show();
 
             this.Hide();
@@ -414,6 +430,8 @@ namespace Sistema_bibliotecario
                         NPrestamo.EntregaLibros(txtMatriculaSancion.Text);
                         btnEntrega.Enabled = false;
                         frmPrestamos frm = new frmPrestamos();
+
+                        frm.MdiParent = this.MdiParent;
                         frm.Show();
                         this.Hide();
                     }

@@ -124,15 +124,6 @@ namespace Sistema_bibliotecario
 
         }
 
-        private void multasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmSancionO frmsancion = new frmSancionO();
-            frmsancion.MdiParent = this;
-            frmsancion.txtMatriculaSancion.Text = "";
-
-            frmsancion.Show();
-        }
-
         private void controlDeSancionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmSancionesO frmsanciones = new frmSancionesO();
@@ -153,6 +144,15 @@ namespace Sistema_bibliotecario
             frmReportes fReportes = new frmReportes();
             fReportes.MdiParent = this;
             fReportes.Show();
+        }
+
+        private void sancionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSancionO frmsancion = new frmSancionO();
+            frmsancion.MdiParent = this;
+            frmsancion.txtMatriculaSancion.Text = "";
+
+            frmsancion.Show();
         }
     }
 }

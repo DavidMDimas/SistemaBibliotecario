@@ -45,6 +45,8 @@ namespace Sistema_bibliotecario
         private void btnVolver_Click(object sender, EventArgs e)
         {
             frmPrestamos frm = new frmPrestamos();
+
+            
             frm.Show();
 
             this.Hide();
@@ -77,15 +79,22 @@ namespace Sistema_bibliotecario
 
         private void dataSancion_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtID.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["id_sancion"].Value);
-            txtMat.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["matricula"].Value);
-            txtISBN.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["isbn"].Value);
-            txtIdPres.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["id_prestamo"].Value);
-            txtNumR.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["num_referencia"].Value);
-            txtFecha.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["fecha_prestamo"].Value);
-            txtDias.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["dias"].Value);
-            txtMonto.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["total_pago"].Value);
-            txtEstatus.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["estatus"].Value);
+            try
+            {
+                txtID.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["id_sancion"].Value);
+                txtMat.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["matricula"].Value);
+                txtISBN.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["isbn"].Value);
+                txtIdPres.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["id_prestamo"].Value);
+                txtNumR.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["num_referencia"].Value);
+                txtFecha.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["fecha_prestamo"].Value);
+                txtDias.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["dias"].Value);
+                txtMonto.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["total_pago"].Value);
+                txtEstatus.Text = Convert.ToString(this.dataSancion.CurrentRow.Cells["estatus"].Value);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

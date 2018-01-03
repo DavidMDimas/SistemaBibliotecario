@@ -33,7 +33,6 @@
             this.btnEliminarS = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnMostrar = new System.Windows.Forms.Button();
-            this.btnVolver = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtIdPres = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -96,16 +95,6 @@
             this.btnMostrar.Text = "Mostrar Sanciones";
             this.btnMostrar.UseVisualStyleBackColor = true;
             this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
-            // 
-            // btnVolver
-            // 
-            this.btnVolver.Location = new System.Drawing.Point(564, 169);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(100, 38);
-            this.btnVolver.TabIndex = 75;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = true;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // label1
             // 
@@ -299,7 +288,6 @@
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtNumR);
-            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.btnEliminarS);
             this.Controls.Add(this.btnModificar);
@@ -322,7 +310,6 @@
         private System.Windows.Forms.Button btnEliminarS;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnMostrar;
-        private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtIdPres;
         private System.Windows.Forms.Label label5;

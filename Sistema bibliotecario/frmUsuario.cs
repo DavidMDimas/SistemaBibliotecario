@@ -11,11 +11,13 @@ using CapaNegocio;
 using System.Data.SqlClient;
 using System.Text.RegularExpressions;
 
-
 namespace Sistema_bibliotecario
 {
     public partial class frmUsuario : Form
     {
+
+        char[] caracteresTrim = {' '};
+
         public frmUsuario()
         {
             InitializeComponent();
@@ -66,19 +68,21 @@ namespace Sistema_bibliotecario
                         cmd.ExecuteNonQuery();
                         */
 
-                    if (txtMatricula.Text == txtRepetirMat.Text && txtMatricula.TextLength==9 && (txtcbTipoUsuario.Text=="Alumno" || txtcbTipoUsuario.Text == "Egresado") && CorreoValido(this.txtEmail.Text)==true)
+                    string correo = txtEmail.Text.Trim(caracteresTrim);
+
+                    if (txtMatricula.Text == txtRepetirMat.Text && txtMatricula.TextLength==9 && (txtcbTipoUsuario.Text=="Alumno" || txtcbTipoUsuario.Text == "Egresado") && CorreoValido(correo) ==true)
                     {
                         errorIcono.Clear();
                         NUsuario.Insertar(this.txtMatricula.Text, this.txtNombre.Text, this.txtApellido.Text, this.txtcbCarrera.Text,
-                        this.txtcbSexo.Text, this.txtcbTipoUsuario.Text, this.txtEmail.Text,this.dtFechaIng.Value);
+                        this.txtcbSexo.Text, this.txtcbTipoUsuario.Text, correo, this.dtFechaIng.Value);
                         Limpiar();
                         MessageBox.Show("Registro guardado");
                     }
-                    else if (txtMatricula.Text == txtRepetirMat.Text && txtMatricula.TextLength == 4 && (txtcbTipoUsuario.Text == "Profesor" || txtcbTipoUsuario.Text == "Administrativo") && CorreoValido(this.txtEmail.Text) == true)
+                    else if (txtMatricula.Text == txtRepetirMat.Text && txtMatricula.TextLength == 4 && (txtcbTipoUsuario.Text == "Profesor" || txtcbTipoUsuario.Text == "Administrativo") && CorreoValido(correo) == true)
                     {
                         errorIcono.Clear();
                         NUsuario.Insertar(this.txtMatricula.Text, this.txtNombre.Text, this.txtApellido.Text, this.txtcbCarrera.Text,
-                        this.txtcbSexo.Text, this.txtcbTipoUsuario.Text, this.txtEmail.Text, this.dtFechaIng.Value);
+                        this.txtcbSexo.Text, this.txtcbTipoUsuario.Text, correo, this.dtFechaIng.Value);
                         Limpiar();
                         MessageBox.Show("Registro guardado");
                     }
@@ -87,6 +91,9 @@ namespace Sistema_bibliotecario
                             + "**Comprueba que las matriculas ingresadas sean las correctas" + Environment.NewLine + Environment.NewLine
                             +"**Verifica que el correo electronico tenga un formato valido");
                         errorIcono.SetError(txtMatricula, "Verifica que los datos ingresados sean correctos");
+                        errorIcono.SetError(txtRepetirMat, "Verifica que los datos ingresados sean correctos");
+                        errorIcono.SetError(txtcbTipoUsuario, "Verifica que los datos ingresados sean correctos");
+                        errorIcono.SetError(txtEmail, "Verifica que los datos ingresados sean correctos");
                     }
 
                 }
@@ -166,6 +173,7 @@ namespace Sistema_bibliotecario
                             txtcbSexo.Text = (dr["sexo"].ToString());
                             txtcbTipoUsuario.Text = (dr["tipousuario"].ToString());
                             txtEmail.Text = (dr["email"].ToString());
+                            dtFechaIng.Value = Convert.ToDateTime(dr["fechareg"].ToString());
                         }
                         SqlCon.Close();
 
@@ -195,6 +203,7 @@ namespace Sistema_bibliotecario
                 this.txtcbSexo.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["sexo"].Value);
                 this.txtcbTipoUsuario.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["tipousuario"].Value);
                 this.txtEmail.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["email"].Value);
+                this.dtFechaIng.Value = Convert.ToDateTime(this.dataListado.CurrentRow.Cells["fechareg"].Value);
             }
             catch (Exception ex)
             {
@@ -264,7 +273,6 @@ namespace Sistema_bibliotecario
                         Limpiar();
                         MessageBox.Show("Registro eliminado");
                     }
-
                 }
             }
             catch (Exception ex)
@@ -298,7 +306,14 @@ namespace Sistema_bibliotecario
 
         private void txtMatricula_TextChanged(object sender, EventArgs e)
         {
-            this.dataListado.DataSource = NUsuario.BuscarMatricula(this.txtMatricula.Text);
+            try
+            {
+                this.dataListado.DataSource = NUsuario.BuscarMatricula(this.txtMatricula.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
         }
 
         private void txtRepetirMat_KeyPress(object sender, KeyPressEventArgs e)

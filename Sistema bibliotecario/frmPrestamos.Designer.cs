@@ -54,16 +54,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.gbLibros = new System.Windows.Forms.GroupBox();
             this.btnEliminarTodo = new System.Windows.Forms.Button();
-            this.lblISBN2 = new System.Windows.Forms.Label();
-            this.lblISBN3 = new System.Windows.Forms.Label();
-            this.lblISBN1 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.dataListado = new System.Windows.Forms.DataGridView();
-            this.btnAgregar = new System.Windows.Forms.Button();
+            this.ISBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TITULO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EDITORIAL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AUTORES = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtObservaciones = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.btnBuscarIsbn = new System.Windows.Forms.Button();
@@ -77,19 +73,21 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.txtcbTipoprestamo = new System.Windows.Forms.ComboBox();
+            this.lblISBN2 = new System.Windows.Forms.Label();
+            this.lblISBN3 = new System.Windows.Forms.Label();
+            this.lblISBN1 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnEntrega = new System.Windows.Forms.Button();
             this.btnSancion = new System.Windows.Forms.Button();
             this.btnPrestamo = new System.Windows.Forms.Button();
             this.errorIcono = new System.Windows.Forms.ErrorProvider(this.components);
-            this.button2 = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
             this.txtFechaLimite = new System.Windows.Forms.DateTimePicker();
             this.btnAbrirSanciones = new System.Windows.Forms.Button();
-            this.ISBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TITULO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EDITORIAL = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AUTORES = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.gbLibros.SuspendLayout();
@@ -187,7 +185,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Matutino",
             "Vespertino"});
-            this.comboBox1.Location = new System.Drawing.Point(327, 112);
+            this.comboBox1.Location = new System.Drawing.Point(333, 112);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(134, 21);
             this.comboBox1.TabIndex = 13;
@@ -219,14 +217,14 @@
             // 
             // txtCarrera
             // 
-            this.txtCarrera.Location = new System.Drawing.Point(74, 113);
+            this.txtCarrera.Location = new System.Drawing.Point(94, 113);
             this.txtCarrera.Name = "txtCarrera";
             this.txtCarrera.Size = new System.Drawing.Size(183, 20);
             this.txtCarrera.TabIndex = 12;
             // 
             // txtGrupo
             // 
-            this.txtGrupo.Location = new System.Drawing.Point(766, 66);
+            this.txtGrupo.Location = new System.Drawing.Point(739, 62);
             this.txtGrupo.Name = "txtGrupo";
             this.txtGrupo.Size = new System.Drawing.Size(102, 20);
             this.txtGrupo.TabIndex = 11;
@@ -249,7 +247,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(685, 112);
+            this.label8.Location = new System.Drawing.Point(685, 115);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 7;
@@ -258,7 +256,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(477, 115);
+            this.label7.Location = new System.Drawing.Point(480, 115);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(52, 13);
             this.label7.TabIndex = 6;
@@ -267,7 +265,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(283, 115);
+            this.label6.Location = new System.Drawing.Point(283, 116);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 5;
@@ -276,7 +274,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(723, 69);
+            this.label5.Location = new System.Drawing.Point(685, 70);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 13);
             this.label5.TabIndex = 4;
@@ -323,7 +321,6 @@
             this.gbLibros.Controls.Add(this.btnEliminarTodo);
             this.gbLibros.Controls.Add(this.btnEliminar);
             this.gbLibros.Controls.Add(this.dataListado);
-            this.gbLibros.Controls.Add(this.btnAgregar);
             this.gbLibros.Controls.Add(this.txtObservaciones);
             this.gbLibros.Controls.Add(this.label17);
             this.gbLibros.Controls.Add(this.btnBuscarIsbn);
@@ -347,7 +344,7 @@
             // 
             // btnEliminarTodo
             // 
-            this.btnEliminarTodo.Location = new System.Drawing.Point(784, 80);
+            this.btnEliminarTodo.Location = new System.Drawing.Point(784, 64);
             this.btnEliminarTodo.Name = "btnEliminarTodo";
             this.btnEliminarTodo.Size = new System.Drawing.Size(75, 23);
             this.btnEliminarTodo.TabIndex = 78;
@@ -355,76 +352,9 @@
             this.btnEliminarTodo.UseVisualStyleBackColor = true;
             this.btnEliminarTodo.Click += new System.EventHandler(this.btnEliminarTodo_Click);
             // 
-            // lblISBN2
-            // 
-            this.lblISBN2.AutoSize = true;
-            this.lblISBN2.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblISBN2.Location = new System.Drawing.Point(996, 597);
-            this.lblISBN2.Name = "lblISBN2";
-            this.lblISBN2.Size = new System.Drawing.Size(0, 15);
-            this.lblISBN2.TabIndex = 77;
-            // 
-            // lblISBN3
-            // 
-            this.lblISBN3.AutoSize = true;
-            this.lblISBN3.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblISBN3.Location = new System.Drawing.Point(996, 630);
-            this.lblISBN3.Name = "lblISBN3";
-            this.lblISBN3.Size = new System.Drawing.Size(0, 15);
-            this.lblISBN3.TabIndex = 76;
-            // 
-            // lblISBN1
-            // 
-            this.lblISBN1.AutoSize = true;
-            this.lblISBN1.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblISBN1.Location = new System.Drawing.Point(996, 564);
-            this.lblISBN1.Name = "lblISBN1";
-            this.lblISBN1.Size = new System.Drawing.Size(0, 15);
-            this.lblISBN1.TabIndex = 75;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(944, 630);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(46, 15);
-            this.label19.TabIndex = 74;
-            this.label19.Text = "ISBN 3:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(944, 597);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(46, 15);
-            this.label13.TabIndex = 73;
-            this.label13.Text = "ISBN 2:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(944, 564);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(46, 15);
-            this.label12.TabIndex = 72;
-            this.label12.Text = "ISBN 1:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Lucida Bright", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(944, 538);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(142, 17);
-            this.label11.TabIndex = 71;
-            this.label11.Text = "Libros solicitados";
-            // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(784, 48);
+            this.btnEliminar.Location = new System.Drawing.Point(784, 32);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 69;
@@ -445,15 +375,27 @@
             this.dataListado.Size = new System.Drawing.Size(644, 150);
             this.dataListado.TabIndex = 65;
             // 
-            // btnAgregar
+            // ISBN
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(784, 19);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 68;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            this.ISBN.HeaderText = "ISBN";
+            this.ISBN.Name = "ISBN";
+            this.ISBN.Width = 200;
+            // 
+            // TITULO
+            // 
+            this.TITULO.HeaderText = "TITULO";
+            this.TITULO.Name = "TITULO";
+            this.TITULO.Width = 200;
+            // 
+            // EDITORIAL
+            // 
+            this.EDITORIAL.HeaderText = "EDITORIAL";
+            this.EDITORIAL.Name = "EDITORIAL";
+            // 
+            // AUTORES
+            // 
+            this.AUTORES.HeaderText = "AUTORES";
+            this.AUTORES.Name = "AUTORES";
             // 
             // txtObservaciones
             // 
@@ -575,6 +517,73 @@
             this.txtcbTipoprestamo.TabIndex = 0;
             this.txtcbTipoprestamo.Text = "Consulta";
             // 
+            // lblISBN2
+            // 
+            this.lblISBN2.AutoSize = true;
+            this.lblISBN2.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblISBN2.Location = new System.Drawing.Point(996, 597);
+            this.lblISBN2.Name = "lblISBN2";
+            this.lblISBN2.Size = new System.Drawing.Size(0, 15);
+            this.lblISBN2.TabIndex = 77;
+            // 
+            // lblISBN3
+            // 
+            this.lblISBN3.AutoSize = true;
+            this.lblISBN3.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblISBN3.Location = new System.Drawing.Point(996, 630);
+            this.lblISBN3.Name = "lblISBN3";
+            this.lblISBN3.Size = new System.Drawing.Size(0, 15);
+            this.lblISBN3.TabIndex = 76;
+            // 
+            // lblISBN1
+            // 
+            this.lblISBN1.AutoSize = true;
+            this.lblISBN1.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblISBN1.Location = new System.Drawing.Point(996, 564);
+            this.lblISBN1.Name = "lblISBN1";
+            this.lblISBN1.Size = new System.Drawing.Size(0, 15);
+            this.lblISBN1.TabIndex = 75;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(944, 630);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(46, 15);
+            this.label19.TabIndex = 74;
+            this.label19.Text = "ISBN 3:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(944, 597);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(46, 15);
+            this.label13.TabIndex = 73;
+            this.label13.Text = "ISBN 2:";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(944, 564);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(46, 15);
+            this.label12.TabIndex = 72;
+            this.label12.Text = "ISBN 1:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Lucida Bright", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(944, 538);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(142, 17);
+            this.label11.TabIndex = 71;
+            this.label11.Text = "Libros solicitados";
+            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.btnEntrega);
@@ -623,17 +632,6 @@
             // 
             this.errorIcono.ContainerControl = this;
             // 
-            // button2
-            // 
-            this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(984, 261);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 29;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -664,28 +662,6 @@
             this.btnAbrirSanciones.UseVisualStyleBackColor = true;
             this.btnAbrirSanciones.Click += new System.EventHandler(this.btnAbrirSanciones_Click);
             // 
-            // Column1
-            // 
-            this.ISBN.HeaderText = "ISBN";
-            this.ISBN.Name = "ISBN";
-            this.ISBN.Width = 200;
-            // 
-            // TITULO
-            // 
-            this.TITULO.HeaderText = "TITULO";
-            this.TITULO.Name = "TITULO";
-            this.TITULO.Width = 200;
-            // 
-            // EDITORIAL
-            // 
-            this.EDITORIAL.HeaderText = "EDITORIAL";
-            this.EDITORIAL.Name = "EDITORIAL";
-            // 
-            // AUTORES
-            // 
-            this.AUTORES.HeaderText = "AUTORES";
-            this.AUTORES.Name = "AUTORES";
-            // 
             // frmPrestamos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -698,7 +674,6 @@
             this.Controls.Add(this.lblISBN3);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.lblISBN1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.label13);
@@ -764,7 +739,6 @@
         private System.Windows.Forms.TextBox txtObservaciones;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button btnSancion;
         private System.Windows.Forms.Button btnPrestamo;
@@ -778,7 +752,6 @@
         private System.Windows.Forms.Label lblISBN2;
         private System.Windows.Forms.TextBox txtApellidos;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.DateTimePicker txtFechaLimite;
         private System.Windows.Forms.TextBox txtMatricula;

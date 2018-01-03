@@ -49,6 +49,7 @@
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.manualDeUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sancionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -108,7 +109,7 @@
             this.nuevoAutorToolStripMenuItem,
             this.nuevoEditorialToolStripMenuItem});
             this.librosToolStripMenuItem.Name = "librosToolStripMenuItem";
-            this.librosToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.librosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.librosToolStripMenuItem.Text = "Libros";
             // 
             // nuevoLibroToolStripMenuItem
@@ -137,7 +138,7 @@
             this.alumnosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nuevoAlumnoToolStripMenuItem});
             this.alumnosToolStripMenuItem.Name = "alumnosToolStripMenuItem";
-            this.alumnosToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.alumnosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.alumnosToolStripMenuItem.Text = "Usuarios";
             // 
             // nuevoAlumnoToolStripMenuItem
@@ -152,7 +153,7 @@
             this.buscarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.libroToolStripMenuItem});
             this.buscarToolStripMenuItem.Name = "buscarToolStripMenuItem";
-            this.buscarToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.buscarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.buscarToolStripMenuItem.Text = "Buscar";
             // 
             // libroToolStripMenuItem
@@ -165,18 +166,18 @@
             // prestamosToolStripMenuItem
             // 
             this.prestamosToolStripMenuItem.Name = "prestamosToolStripMenuItem";
-            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.prestamosToolStripMenuItem.Text = "Prestamos";
             this.prestamosToolStripMenuItem.Click += new System.EventHandler(this.prestamosToolStripMenuItem_Click);
             // 
             // multasToolStripMenuItem
             // 
             this.multasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sancionToolStripMenuItem,
             this.controlDeSancionesToolStripMenuItem});
             this.multasToolStripMenuItem.Name = "multasToolStripMenuItem";
-            this.multasToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.multasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.multasToolStripMenuItem.Text = "Multas";
-            this.multasToolStripMenuItem.Click += new System.EventHandler(this.multasToolStripMenuItem_Click);
             // 
             // controlDeSancionesToolStripMenuItem
             // 
@@ -188,7 +189,7 @@
             // reportesToolStripMenuItem
             // 
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.reportesToolStripMenuItem.Text = "Reportes";
             this.reportesToolStripMenuItem.Click += new System.EventHandler(this.reportesToolStripMenuItem_Click);
             // 
@@ -213,6 +214,13 @@
             this.manualDeUsuarioToolStripMenuItem.Name = "manualDeUsuarioToolStripMenuItem";
             this.manualDeUsuarioToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.manualDeUsuarioToolStripMenuItem.Text = "Manual de usuario";
+            // 
+            // sancionToolStripMenuItem
+            // 
+            this.sancionToolStripMenuItem.Name = "sancionToolStripMenuItem";
+            this.sancionToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.sancionToolStripMenuItem.Text = "Sancion";
+            this.sancionToolStripMenuItem.Click += new System.EventHandler(this.sancionToolStripMenuItem_Click);
             // 
             // MenunPrincipal
             // 
@@ -257,5 +265,6 @@
         private System.Windows.Forms.ToolStripMenuItem buscarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem libroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sancionToolStripMenuItem;
     }
 }
