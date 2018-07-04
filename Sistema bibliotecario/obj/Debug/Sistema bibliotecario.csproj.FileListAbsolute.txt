@@ -1,0 +1,145 @@
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.exe.config
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.exe
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.pdb
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.csprojResolveAssemblyReference.cache
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.LoginAcceso.resources
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.Properties.Resources.resources
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.csproj.GenerateResource.Cache
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.exe
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.pdb
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.MenunPrincipal.resources
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmAutor.resources
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmEditorial.resources
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmLibros.resources
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.acercade.resources
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmBuscarLibro.resources
+c:\users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmUsuario.resources
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaNegocio.dll
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaDatos.dll
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaNegocio.pdb
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaDatos.pdb
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaDatos.dll.config
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.exe.manifest
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.application
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.exe.manifest
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.application
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dimas\Documents\Visual Studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmPrestamo.resources
+C:\Users\dimas\Documents\Visual Studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.csproj.CoreCompileInputs.cache
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\BarcodeLib.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.exe.config
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.exe.manifest
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.application
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.exe
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.pdb
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\BarcodeLib.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaNegocio.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Newtonsoft.Json.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaDatos.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaNegocio.pdb
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Newtonsoft.Json.xml
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaDatos.pdb
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaDatos.dll.config
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.csprojResolveAssemblyReference.cache
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.acercade.resources
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmAutor.resources
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmBuscarLibro.resources
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmEditorial.resources
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmLibros.resources
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmPrestamo.resources
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmUsuario.resources
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.LoginAcceso.resources
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.MenunPrincipal.resources
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.Properties.Resources.resources
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.csproj.GenerateResource.Cache
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.csproj.CoreCompileInputs.cache
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.exe.manifest
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.application
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.exe
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.pdb
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\EnvDTE.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\stdole.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\EnvDTE80.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\VSLangProj.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\VSLangProj80.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.MSXML.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\VSLangProj2.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema bibliotecario.exe.config
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\Sistema bibliotecario\obj\Debug\Sistema_bibliotecario.frmMonitordeEventos.resources

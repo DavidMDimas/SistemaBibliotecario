@@ -1,0 +1,13 @@
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\dimas\Documents\Visual Studio 2017\Projects\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\dimas\Documents\Visual Studio 2017\Projects\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\David M Dimas\Documents\Sistemas Desarrollos\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.pdb
