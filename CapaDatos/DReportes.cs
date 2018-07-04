@@ -318,7 +318,7 @@ namespace CapaDatos
 
         public DataTable MostrarRLibrosGeneral()
         {
-            DataTable dtRes = new DataTable("Usuarios");
+            DataTable dtRes = new DataTable("Libros");
             SqlConnection sqlCon = new SqlConnection();
             try
             {

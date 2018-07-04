@@ -4,3 +4,9 @@ C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaD
 C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
 C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaDatos\obj\Release\CapaDatos.dll
 C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\bin\Release\CapaDatos.dll.config
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\bin\Release\CapaDatos.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\bin\Release\CapaDatos.pdb
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\obj\Release\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\obj\Release\CapaDatos.pdb

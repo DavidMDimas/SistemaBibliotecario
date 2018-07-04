@@ -14,6 +14,7 @@ using iTextSharp.text.pdf;
 using System.IO;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.Diagnostics;
+using System.Threading;
 
 namespace Sistema_bibliotecario
 {
@@ -160,7 +161,7 @@ namespace Sistema_bibliotecario
         private void EncabezadoPDF(Document document, iTextSharp.text.Font _ef, iTextSharp.text.Font _sf, PdfPTable table)
         {
             // Encabezado
-            iTextSharp.text.Image logoTesi = iTextSharp.text.Image.GetInstance("tesilogo.png");
+            iTextSharp.text.Image logoTesi = iTextSharp.text.Image.GetInstance("./Resources/tesilogo.png");
             logoTesi.BorderWidth = 0;
             logoTesi.Alignment = Element.ALIGN_LEFT;
             float porcentaje = .0f;
@@ -168,7 +169,7 @@ namespace Sistema_bibliotecario
             logoTesi.ScalePercent(porcentaje * 100);
             logoTesi.SetAbsolutePosition(480, 715);
 
-            iTextSharp.text.Image logoEdoMex = iTextSharp.text.Image.GetInstance("tesiedomex.png");
+            iTextSharp.text.Image logoEdoMex = iTextSharp.text.Image.GetInstance("./Resources/tesiedomex.png");
             logoEdoMex.BorderWidth = 0;
             logoEdoMex.Alignment = Element.ALIGN_RIGHT;
             porcentaje = 80 / logoEdoMex.Width;
@@ -201,8 +202,11 @@ namespace Sistema_bibliotecario
             {
                 //Generar sin fecha
                 Phrase fecha = new Phrase("Fecha: ", _sf);
-                Phrase fechaIntervalo1 = new Phrase(Convert.ToString(dtFecha1.Value.ToString("mm/dd/yyyy")), _sf);
-                Phrase fechaIntervalo2 = new Phrase("-" + Convert.ToString(dtFecha2.Value.ToString("mm/dd/yyyy")), _sf);
+                /*Phrase fechaIntervalo1 = new Phrase(Convert.ToString(dtFecha1.Value.ToString("dd/mm/yyyy")), _sf);
+                Phrase fechaIntervalo2 = new Phrase("-" + Convert.ToString(dtFecha2.Value.ToString("dd/mm/yyyy")), _sf);*/
+
+                Phrase fechaIntervalo1 = new Phrase(Convert.ToString(dtFecha1.Value.ToString(   )), _sf);
+                Phrase fechaIntervalo2 = new Phrase("-" + Convert.ToString(dtFecha2.Value.ToString()), _sf);
 
                 document.Add(fecha);
                 document.Add(fechaIntervalo1);
@@ -314,8 +318,15 @@ namespace Sistema_bibliotecario
             try
             {
                 //Process.Start(@"\");
+                Carga carga = new Carga();
+                Thread th = new Thread(new ThreadStart(carga.CargaForm));
+
+                th.Start();
+                th.Join();
+
                 CargarGeneralUsuarios();
                 CargarGeneralLibros();
+
             }
             catch (Exception ex)
             {
@@ -345,7 +356,7 @@ namespace Sistema_bibliotecario
             chartUsuarios.SaveImage(memoryStream, ChartImageFormat.Png);
             iTextSharp.text.Image chartU = iTextSharp.text.Image.GetInstance(memoryStream.GetBuffer());
             chartU.Alignment = Element.ALIGN_CENTER;
-            chartU.ScalePercent(52.5f);
+            chartU.ScalePercent(50f);
             memoryStream.Flush();
 
             PdfPTable tabla = new PdfPTable(3);
@@ -525,7 +536,7 @@ namespace Sistema_bibliotecario
             {
                 Document doc = new Document(PageSize.LETTER);
 
-                PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(@"..\Reporte Biblioteca.pdf", FileMode.Create));
+                PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(@"..\reportebiblioteca.pdf", FileMode.Create));
 
                 doc.AddTitle("Reportes");
                 doc.AddCreator("Juan Mora");

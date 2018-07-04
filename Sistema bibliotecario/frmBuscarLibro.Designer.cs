@@ -40,9 +40,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.dataBusqueda = new System.Windows.Forms.DataGridView();
+            this.Buscador = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataBusqueda)).BeginInit();
+            this.Buscador.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnBuscar
@@ -110,16 +112,16 @@
             // txtBusqueda
             // 
             this.txtBusqueda.Enabled = false;
-            this.txtBusqueda.Location = new System.Drawing.Point(189, 54);
+            this.txtBusqueda.Location = new System.Drawing.Point(9, 56);
             this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Size = new System.Drawing.Size(229, 20);
+            this.txtBusqueda.Size = new System.Drawing.Size(251, 20);
             this.txtBusqueda.TabIndex = 30;
             this.txtBusqueda.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBusqueda_KeyPress);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(186, 33);
+            this.label1.Location = new System.Drawing.Point(6, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 31;
@@ -140,20 +142,30 @@
             this.dataBusqueda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataBusqueda.Location = new System.Drawing.Point(13, 131);
             this.dataBusqueda.Name = "dataBusqueda";
-            this.dataBusqueda.Size = new System.Drawing.Size(558, 150);
+            this.dataBusqueda.Size = new System.Drawing.Size(558, 319);
             this.dataBusqueda.TabIndex = 33;
             this.dataBusqueda.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataBusqueda_CellDoubleClick);
+            // 
+            // Buscador
+            // 
+            this.Buscador.Controls.Add(this.label1);
+            this.Buscador.Controls.Add(this.txtBusqueda);
+            this.Buscador.Location = new System.Drawing.Point(172, 13);
+            this.Buscador.Name = "Buscador";
+            this.Buscador.Size = new System.Drawing.Size(269, 100);
+            this.Buscador.TabIndex = 34;
+            this.Buscador.TabStop = false;
+            this.Buscador.Text = "Buscador";
             // 
             // frmBuscarLibro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(585, 295);
+            this.ClientSize = new System.Drawing.Size(585, 462);
+            this.Controls.Add(this.Buscador);
             this.Controls.Add(this.dataBusqueda);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtBusqueda);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnBuscar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -166,8 +178,9 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataBusqueda)).EndInit();
+            this.Buscador.ResumeLayout(false);
+            this.Buscador.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -182,5 +195,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.DataGridView dataBusqueda;
+        private System.Windows.Forms.GroupBox Buscador;
     }
 }

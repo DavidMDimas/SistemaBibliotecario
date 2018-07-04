@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using CapaDatos;
 
+using System.Threading;
+
 namespace CapaNegocio
 {
     public class NBusquedas

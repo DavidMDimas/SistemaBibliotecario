@@ -1,0 +1,130 @@
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\SqlServerTypes\x64\msvcr120.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\SqlServerTypes\x86\msvcr120.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Sistema bibliotecario.exe.config
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Sistema bibliotecario.exe.manifest
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Sistema bibliotecario.application
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Sistema bibliotecario.exe
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Sistema bibliotecario.pdb
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\BarcodeLib.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\CapaNegocio.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\itextsharp.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.ReportViewer.Design.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.CoreUtility.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Newtonsoft.Json.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\CapaDatos.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\EnvDTE.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\stdole.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\EnvDTE80.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.Build.Tasks.Core.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\VSLangProj.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\VSLangProj80.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.MSXML.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.Build.Utilities.Core.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.Build.Framework.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\VSLangProj2.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\CapaNegocio.pdb
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\itextsharp.xml
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.CoreUtility.xml
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Newtonsoft.Json.xml
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\CapaDatos.pdb
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\CapaDatos.dll.config
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\bin\Release\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema bibliotecario.csprojResolveAssemblyReference.cache
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema bibliotecario.exe.config
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.acercade.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmAutor.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmBuscarLibro.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmEditorial.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmLibros.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmMonitordeEventos.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmPrestamo.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmPrestamos.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmReportes.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmSancion.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmSancionesO.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmSancionO.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmUsuario.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.frmVerPrestamos.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.ListSProcedureTEST.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.LoginAcceso.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.MenunPrincipal.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema_bibliotecario.Properties.Resources.resources
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema bibliotecario.csproj.GenerateResource.Cache
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema bibliotecario.csproj.CoreCompileInputs.cache
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema bibliotecario.exe.manifest
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema bibliotecario.application
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema bibliotecario.exe
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\Sistema bibliotecario\obj\Release\Sistema bibliotecario.pdb

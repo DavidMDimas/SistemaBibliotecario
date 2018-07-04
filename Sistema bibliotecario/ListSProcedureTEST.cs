@@ -130,17 +130,13 @@ namespace Sistema_bibliotecario
                         textBox4.Text = Convert.ToString(g.Edad);
                     }
                     
-                for(int i=0;i<gente.Count;i++){
-                    Personas g = gente[i];
-
-                }
+                    for(int i=0;i<gente.Count;i++){
+                        Personas g = gente[i];
+                    }
 
                     //label1.Text = Convert.ToString(g);
-                    
+
                 }
-
-
-
 
                 dr.Close();
                 SqlCon.Close();
@@ -154,7 +150,15 @@ namespace Sistema_bibliotecario
         public static List<Personas> GenteNueva()
         {
             List<Personas> gente = new List<Personas>();
-            gente.Add(new Personas() { Nombre = "Juanito", Apellidos = "GreenPanther" });
+            gente.Add(new Personas() { Nombre = "Juanito", Apellidos = "GreenPanther",Edad=21 });
+
+            return gente;
+        }
+
+        public static List<Personas> GenteJL()
+        {
+            List<Personas> gente = new List<Personas>();
+            gente.Add(new Personas() { Nombre = "Juanito", Apellidos = "GreenPanther", Edad = 21 });
 
             return gente;
         }
@@ -174,25 +178,17 @@ namespace Sistema_bibliotecario
                 SqlCommand cmd = new SqlCommand(SqlSelectQuery, SqlCon);
                 SqlDataReader dr = cmd.ExecuteReader();
 
+                foreach (Personas g in GenteNueva())
+                {
+                    label1.Text = Convert.ToString(g.Nombre);
+                    textBox2.Text = g.Nombre;
+                    textBox3.Text = g.Apellidos;
+                    textBox4.Text = Convert.ToString(g.Edad);
+                }
+
                 if (dr.Read())
                 {
-                    /*textBox2.Text = (dr["nombre"].ToString());
-                    textBox3.Text = (dr["apellidos"].ToString());*/
-                    /*
-                    gente.Add(new Personas() { Nombre = (dr["nombre"].ToString()), Apellidos = (dr["apellidos"].ToString()) });
-
-                    foreach (Personas g in gente)
-                    {
-                        label1.Text = Convert.ToString(g.Nombre);
-                        textBox2.Text = g.Nombre;
-                        textBox3.Text = g.Apellidos;
-                    }
                     
-                for(int i=0;i<
-                    Personas g = gente[i];
-
-                    //label1.Text = Convert.ToString(g);
-                    */
                 }
 
                 dr.Close();

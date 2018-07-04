@@ -68,21 +68,19 @@ namespace Sistema_bibliotecario
                         cmd.ExecuteNonQuery();
                         */
 
-                    string correo = txtEmail.Text.Trim(caracteresTrim);
+                    string correo = this.txtEmail.Text.Trim(caracteresTrim);
 
                     if (txtMatricula.Text == txtRepetirMat.Text && txtMatricula.TextLength==9 && (txtcbTipoUsuario.Text=="Alumno" || txtcbTipoUsuario.Text == "Egresado") && CorreoValido(correo) ==true)
                     {
                         errorIcono.Clear();
-                        NUsuario.Insertar(this.txtMatricula.Text, this.txtNombre.Text, this.txtApellido.Text, this.txtcbCarrera.Text,
-                        this.txtcbSexo.Text, this.txtcbTipoUsuario.Text, correo, this.dtFechaIng.Value);
+                        NUsuario.Insertar(this.txtMatricula.Text, this.txtNombre.Text, this.txtApellido.Text, this.txtcbCarrera.Text,this.txtcbSexo.Text, this.txtcbTipoUsuario.Text, correo, this.dtFechaIng.Value);
                         Limpiar();
                         MessageBox.Show("Registro guardado");
                     }
                     else if (txtMatricula.Text == txtRepetirMat.Text && txtMatricula.TextLength == 4 && (txtcbTipoUsuario.Text == "Profesor" || txtcbTipoUsuario.Text == "Administrativo") && CorreoValido(correo) == true)
                     {
                         errorIcono.Clear();
-                        NUsuario.Insertar(this.txtMatricula.Text, this.txtNombre.Text, this.txtApellido.Text, this.txtcbCarrera.Text,
-                        this.txtcbSexo.Text, this.txtcbTipoUsuario.Text, correo, this.dtFechaIng.Value);
+                        NUsuario.Insertar(this.txtMatricula.Text, this.txtNombre.Text, this.txtApellido.Text, this.txtcbCarrera.Text,this.txtcbSexo.Text, this.txtcbTipoUsuario.Text, correo, this.dtFechaIng.Value);
                         Limpiar();
                         MessageBox.Show("Registro guardado");
                     }
@@ -124,8 +122,7 @@ namespace Sistema_bibliotecario
                     DialogResult resul = MessageBox.Show("Realmente desea modificar el registro", "Modificar registro", MessageBoxButtons.YesNo);
                     if (resul == DialogResult.Yes)
                     {
-                        NUsuario.Editar(Convert.ToInt32(txtIdUser.Text), this.txtMatricula.Text, this.txtNombre.Text, this.txtApellido.Text, this.txtcbCarrera.Text,
-                        this.txtcbSexo.Text, this.txtcbTipoUsuario.Text, this.txtEmail.Text, this.dtFechaIng.Value);
+                        NUsuario.Editar(Convert.ToInt32(txtIdUser.Text), this.txtMatricula.Text, this.txtNombre.Text, this.txtApellido.Text, this.txtcbCarrera.Text,this.txtcbSexo.Text, this.txtcbTipoUsuario.Text, this.txtEmail.Text, this.dtFechaIng.Value);
 
                         MessageBox.Show("Registro modificado");
                     }

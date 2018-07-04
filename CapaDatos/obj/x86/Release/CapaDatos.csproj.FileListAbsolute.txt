@@ -1,0 +1,6 @@
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\bin\x86\Release\CapaDatos.dll.config
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\bin\x86\Release\CapaDatos.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\bin\x86\Release\CapaDatos.pdb
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\obj\x86\Release\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\obj\x86\Release\CapaDatos.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaDatos\obj\x86\Release\CapaDatos.pdb

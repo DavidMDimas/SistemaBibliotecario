@@ -317,8 +317,7 @@ namespace Sistema_bibliotecario
                     DialogResult res = MessageBox.Show("¿Desea registrar la Sancion?", "Registrar", MessageBoxButtons.YesNo);
                     if (res == DialogResult.Yes)
                     {
-                        NSancionO.Insertar(txtMatriculaSancion.Text, isbnLibro, idPrestamo, txtReferencia.Text,
-                        txtFechaSancion.Value, dias, Convert.ToDouble(txtPagoSancion.Text),estatus);
+                        NSancionO.Insertar(this.txtMatriculaSancion.Text, isbnLibro, idPrestamo, this.txtReferencia.Text,this.txtFechaSancion.Value, dias, Convert.ToDouble(this.txtPagoSancion.Text),estatus);
                         //Limpiar(this);
                         btnGuardar.Enabled = false;
                         btnEntrega.Enabled = true;

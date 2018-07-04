@@ -6,3 +6,12 @@ C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaN
 C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaNegocio\obj\Release\CapaNegocio.csprojResolveAssemblyReference.cache
 C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaNegocio\obj\Release\CapaNegocio.dll
 C:\Users\dimas\documents\visual studio 2017\Projects\Sistema bibliotecario\CapaNegocio\obj\Release\CapaNegocio.pdb
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaNegocio\bin\Release\CapaNegocio.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaNegocio\bin\Release\CapaNegocio.pdb
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaNegocio\bin\Release\CapaDatos.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaNegocio\bin\Release\CapaDatos.pdb
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaNegocio\bin\Release\CapaDatos.dll.config
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaNegocio\obj\Release\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaNegocio\obj\Release\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaNegocio\obj\Release\CapaNegocio.dll
+C:\Users\David M Dimas\Desktop\Sistema bibliotecario\CapaNegocio\obj\Release\CapaNegocio.pdb

@@ -686,6 +686,7 @@
             this.Name = "frmPrestamos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPrestamos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmPrestamos_FormClosed);
             this.Load += new System.EventHandler(this.frmPrestamos_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();

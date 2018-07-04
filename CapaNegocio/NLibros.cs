@@ -10,9 +10,7 @@ namespace CapaNegocio
 {
     public class NLibros
     {
-        public static string Insertar(string isbn, string titulo, string lenguaje, string editorial, string publicacion, string genero,
-            string disponibilidad, string comentarios, string autores, string edicion, DateTime fechaedicion,
-            int npaginas, string materia, string subgenero, string ubicacion, string tag, string codigobarras, byte[] imagen)
+        public static string Insertar(string isbn, string titulo, string lenguaje, string editorial, string publicacion, string genero,string disponibilidad, string comentarios, string autores, string edicion, DateTime fechaedicion,int npaginas, string materia, string subgenero, string ubicacion, string tag, string codigobarras, byte[] imagen)
         {
             DLibro Obj = new DLibro();
             Obj.ISBN = isbn;
@@ -38,9 +36,7 @@ namespace CapaNegocio
             
         }
 
-        public static string Editar(string isbn, string titulo, string lenguaje, string editorial, string publicacion, string genero,
-            string disponibilidad, string comentarios, string autores, string edicion, DateTime fechaedicion,
-            int npaginas, string materia, string subgenero, string ubicacion, string tag, string codigobarras, byte[] imagen)
+        public static string Editar(string isbn, string titulo, string lenguaje, string editorial, string publicacion, string genero,string disponibilidad, string comentarios, string autores, string edicion, DateTime fechaedicion,int npaginas, string materia, string subgenero, string ubicacion, string tag, string codigobarras, byte[] imagen)
         {
             DLibro Obj = new DLibro();
             Obj.ISBN = isbn;

@@ -5,7 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using CapaNegocio;
@@ -344,8 +344,7 @@ namespace Sistema_bibliotecario
                     errorIcono.Clear();
                     if (resul == DialogResult.Yes)
                     {
-                        NPrestamo.Insertar(txtMatricula.Text, txtcbTipoprestamo.Text, isbn[0], isbn[1], isbn[2], txtdtFechaPrestamo.Value,
-                            txtdtPrimerRenovacion.Value, txtdtSegundaRenovacion.Value, txtObservaciones.Text, "1");
+                        NPrestamo.Insertar(this.txtMatricula.Text, this.txtcbTipoprestamo.Text, this.isbn[0], this.isbn[1], this.isbn[2],this.txtdtFechaPrestamo.Value, this.txtdtPrimerRenovacion.Value, this.txtdtSegundaRenovacion.Value, this.txtObservaciones.Text, "1");
                         gbLibros.Enabled = false;
                         btnPrestamo.Enabled = false;                        
                         Limpiar();
@@ -438,11 +437,18 @@ namespace Sistema_bibliotecario
         {
             try
             {
+                Carga carga = new Carga();
+                Thread th = new Thread(new ThreadStart(carga.CargaForm));
+
+                th.Start();
+                th.Join();
+
                 this.txtMatricula.Select();
                 gbLibros.Enabled = false;
                 txtdtFechaPrestamo.Value = DateTime.Now;
                 txtdtPrimerRenovacion.Value = DateTime.Today.AddDays(3);
                 txtdtSegundaRenovacion.Value = DateTime.Today.AddDays(6);
+                
             }
             catch (Exception ex)
             {
@@ -575,5 +581,12 @@ namespace Sistema_bibliotecario
                 MessageBox.Show(ex.Message + ex.StackTrace);
             }
         }
+
+        private void frmPrestamos_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //Thread.Sleep(1000);
+        }
     }
+
+   
 }

@@ -78,6 +78,7 @@ namespace CapaDatos
 
         public DSancionO(int idsancion, string matricula, string isbn,int idprestamo,string numreferencia,DateTime fechaprestamo,int dias, double montofinal,string estatus)
         {
+            /*
             DSancionO Obj = new DSancionO();
             Obj.IdSancion = idsancion;
             Obj.MatriculaAl = matricula;
@@ -87,7 +88,16 @@ namespace CapaDatos
             Obj.FechaPrestamo = fechaprestamo;
             Obj.Dias = dias;
             Obj.TotalPago = montofinal;
-            Obj.Estatus = estatus;
+            Obj.Estatus = estatus;*/
+            this.IdSancion = idsancion;
+            this.MatriculaAl = matricula;
+            this.Isbn = isbn;
+            this.IdPrestamo = idprestamo;
+            this.NumReferencia = numreferencia;
+            this.FechaPrestamo = fechaprestamo;
+            this.Dias = dias;
+            this.TotalPago = montofinal;
+            this.Estatus = estatus;
         }
         
         public string Insertar(DSancionO SancionO)
@@ -142,8 +152,8 @@ namespace CapaDatos
 
                 SqlParameter ParFecha = new SqlParameter();
                 ParFecha.ParameterName = "@fecha";
-                ParFecha.SqlDbType = SqlDbType.VarChar;
-                ParFecha.Size = 50;
+                ParFecha.SqlDbType = SqlDbType.Date;
+                //ParFecha.Size = 50;
                 ParFecha.Value = SancionO.FechaPrestamo;
                 sqlCmd.Parameters.Add(ParFecha);
 
@@ -232,8 +242,7 @@ namespace CapaDatos
 
                 SqlParameter ParFecha = new SqlParameter();
                 ParFecha.ParameterName = "@fecha";
-                ParFecha.SqlDbType = SqlDbType.VarChar;
-                ParFecha.Size = 50;
+                ParFecha.SqlDbType = SqlDbType.Date;
                 ParFecha.Value = SancionO.FechaPrestamo;
                 sqlCmd.Parameters.Add(ParFecha);
 

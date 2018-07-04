@@ -10,9 +10,7 @@ namespace CapaNegocio
 {
     public class NPrestamo
     {
-        public static string Insertar(string matricula, string tipoprestamo, string isbn, string isbn2, string isbn3,
-            DateTime fecha_prestamo, DateTime primer_renovacion, DateTime segunda_renovacion,
-            string observaciones, string estatus)
+        public static string Insertar(string matricula, string tipoprestamo, string isbn, string isbn2, string isbn3,DateTime fecha_prestamo, DateTime primer_renovacion, DateTime segunda_renovacion, string observaciones, string estatus)
         {
             DPrestamo Obj = new DPrestamo();
             Obj.Matricula = matricula;
@@ -29,9 +27,7 @@ namespace CapaNegocio
             return Obj.Insertar(Obj);
         }
 
-        public static string Editar(int idprestamo, string matricula, string tipoprestamo, string isbn, string isbn2, string isbn3,
-            DateTime fecha_prestamo, DateTime primer_renovacion, DateTime segunda_renovacion,
-            string observaciones, string estatus)
+        public static string Editar(int idprestamo, string matricula, string tipoprestamo, string isbn, string isbn2, string isbn3,DateTime fecha_prestamo, DateTime primer_renovacion, DateTime segunda_renovacion,string observaciones, string estatus)
         {
             DPrestamo Obj = new DPrestamo();
             Obj.IdPrestamo = idprestamo;

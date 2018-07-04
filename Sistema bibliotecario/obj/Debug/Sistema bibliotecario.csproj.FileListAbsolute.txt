@@ -273,7 +273,6 @@ C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debu
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Sistema bibliotecario.pdb
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\BarcodeLib.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\CapaNegocio.dll
-C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\itextsharp.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\Sistema bibliotecario\bin\Debug\Microsoft.ReportViewer.Design.dll

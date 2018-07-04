@@ -5,11 +5,13 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace Sistema_bibliotecario
 {
+    
+
     public partial class MenunPrincipal : Form
     {
         public MenunPrincipal()
@@ -18,6 +20,8 @@ namespace Sistema_bibliotecario
         }
 
         private frmLibros form = null;
+
+        public delegate void FormPrestamosVer(frmPrestamos frmP);
 
         private frmLibros FormInstance
         {
@@ -32,9 +36,9 @@ namespace Sistema_bibliotecario
                     form.Disposed += new EventHandler(form_Disposed);
                     /*form.FormClosed += new FormClosedEventHandler(form_FormClosed);
                     form.Load += new EventHandler(form_Load);*/
-
+                    
                 }
-
+                
                 return form;
             }
         }
@@ -53,6 +57,18 @@ namespace Sistema_bibliotecario
         void form_Disposed(object sender, EventArgs e)
         {
             form = null;
+        }
+
+        public void frmLibrosLoad(frmPrestamos frmP)
+        {
+            
+            
+        }
+
+        public void frmPrestamosLoad()
+        {
+
+
         }
 
         private void nuevoAutorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -89,13 +105,14 @@ namespace Sistema_bibliotecario
                 frm.WindowState = FormWindowState.Normal;
 
             frm.Show();
+            
         }
 
         private void nuevoEditorialToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmEditorial FEditorial = new frmEditorial();
-            FEditorial.MdiParent = this;
-            FEditorial.Show();
+            //FEditorial.MdiParent = this;
+            FEditorial.ShowDialog();
         }
 
         private void acercaDeToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -115,13 +132,27 @@ namespace Sistema_bibliotecario
         private void prestamosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmPrestamos fprestamo = new frmPrestamos();
+            //CargarFormsHilos prestamos = new CargarFormsHilos(fprestamo);
+            //CargarFormsHilos prestamos = new CargarFormsHilos();
             fprestamo.MdiParent = this;
             fprestamo.Show();
+            //prestamos.frmPrestamosLoad();
+            
+            /*
+            Thread th = new Thread(new ThreadStart(prestamos.FrmPrestamosLoad));
+
+            th.Start();
+            th.Join();*/
         }
 
         private void MenunPrincipal_Load(object sender, EventArgs e)
         {
+            /*
+            Carga carga = new Carga();
+            Thread th = new Thread(new ThreadStart(carga.CargaForm));
 
+            th.Start();
+            th.Join();*/
         }
 
         private void controlDeSancionesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -154,5 +185,32 @@ namespace Sistema_bibliotecario
 
             frmsancion.Show();
         }
+    }
+
+    public class CargarFormsHilos: MenunPrincipal
+    {
+        /*
+        private frmPrestamos _frmP;
+
+        public CargarFormsHilos(frmPrestamos frmP)
+        {
+             _frmP = frmP;
+
+
+        }*/
+
+        public void frmLibrosLoad()
+        {
+
+        }
+
+        public void FrmPrestamosLoad()
+        {
+
+            frmPrestamos _frmP = new frmPrestamos();
+            _frmP.Show();
+            //Thread.Sleep(10000);
+        }
+
     }
 }

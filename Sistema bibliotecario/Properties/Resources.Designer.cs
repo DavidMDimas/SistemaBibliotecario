@@ -63,6 +63,16 @@ namespace Sistema_bibliotecario.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Becoming_a_Software_Designer {
+            get {
+                object obj = ResourceManager.GetObject("Becoming-a-Software-Designer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap book {
             get {
                 object obj = ResourceManager.GetObject("book", resourceCulture);
@@ -106,6 +116,16 @@ namespace Sistema_bibliotecario.Properties {
         internal static System.Drawing.Bitmap Minimalismo {
             get {
                 object obj = ResourceManager.GetObject("Minimalismo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap oceano {
+            get {
+                object obj = ResourceManager.GetObject("oceano", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

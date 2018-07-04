@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using CapaNegocio;
 using BarcodeLib;
 using System.Drawing.Imaging;
+using System.Threading;
 
 namespace Sistema_bibliotecario
 {
@@ -53,9 +54,7 @@ namespace Sistema_bibliotecario
                     byte[] imagen = ms.GetBuffer();
 
                     int txtPaginas = Convert.ToInt32(txtNPaginas.Text);
-                    NLibros.Insertar(this.txtISBN.Text, this.txtTitulo.Text, this.txtcbLengua.Text, this.txtcbEditorial.Text, this.txtcbPublicacion.Text, this.txtcbGenero.Text,
-                        this.txtDisponibilidad.Text, this.txtComentarios.Text, this.txtcbAutor.Text, this.txtcbEdicion.Text, this.txtdpFechaEdicion.Value, txtPaginas, this.txtcbMateria.Text, this.txtcbSubgenero.Text, this.txtUbicacion.Text, this.txtTag.Text,
-                        this.txtCodigoBarras.Text + "TESI", imagen);
+                    NLibros.Insertar(this.txtISBN.Text, this.txtTitulo.Text, this.txtcbLengua.Text, this.txtcbEditorial.Text, this.txtcbPublicacion.Text, this.txtcbGenero.Text,this.txtDisponibilidad.Text, this.txtComentarios.Text, this.txtcbAutor.Text, this.txtcbEdicion.Text, this.txtdpFechaEdicion.Value, txtPaginas, this.txtcbMateria.Text, this.txtcbSubgenero.Text, this.txtUbicacion.Text, this.txtTag.Text,this.txtCodigoBarras.Text + "TESI", imagen);
 
                     MessageBox.Show("Registro guardado");
                     Limpiar();
@@ -90,9 +89,7 @@ namespace Sistema_bibliotecario
                         byte[] imagen = ms.GetBuffer();
 
                         int txtPaginas = Convert.ToInt32(txtNPaginas.Text);
-                        NLibros.Editar(this.txtISBN.Text, this.txtTitulo.Text, this.txtcbLengua.Text, this.txtcbEditorial.Text, this.txtcbPublicacion.Text, this.txtcbGenero.Text,
-                            this.txtDisponibilidad.Text, this.txtComentarios.Text, this.txtcbAutor.Text, this.txtcbEdicion.Text, this.txtdpFechaEdicion.Value, txtPaginas, this.txtcbMateria.Text, this.txtcbSubgenero.Text, this.txtUbicacion.Text, this.txtTag.Text,
-                            this.txtCodigoBarras.Text + "TESI", imagen);
+                        NLibros.Editar(this.txtISBN.Text, this.txtTitulo.Text, this.txtcbLengua.Text, this.txtcbEditorial.Text, this.txtcbPublicacion.Text, this.txtcbGenero.Text,this.txtDisponibilidad.Text, this.txtComentarios.Text, this.txtcbAutor.Text, this.txtcbEdicion.Text, this.txtdpFechaEdicion.Value, txtPaginas, this.txtcbMateria.Text, this.txtcbSubgenero.Text, this.txtUbicacion.Text, this.txtTag.Text,this.txtCodigoBarras.Text + "TESI", imagen);
                         MessageBox.Show("Registro modificado correctamente");
                         Limpiar();
                     }
@@ -194,6 +191,12 @@ namespace Sistema_bibliotecario
         {
             try
             {
+                Carga carga = new Carga();
+                Thread th = new Thread(new ThreadStart(carga.CargaForm));
+
+                th.Start();
+                th.Join();
+
                 txtcbEditorial.DataSource = NEditorial.Mostrar();
                 txtcbEditorial.ValueMember = "IdEditorial";
                 txtcbEditorial.DisplayMember = "Editorial";

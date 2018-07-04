@@ -21,7 +21,7 @@ C:\Users\Juan2\Desktop\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.cspro
 C:\Users\Juan2\source\repos\Sistema bibliotecario\CapaDatos\bin\Debug\CapaDatos.dll.config
 C:\Users\Juan2\source\repos\Sistema bibliotecario\CapaDatos\bin\Debug\CapaDatos.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\CapaDatos\bin\Debug\CapaDatos.pdb
-C:\Users\Juan2\source\repos\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
 C:\Users\Juan2\source\repos\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
 C:\Users\Juan2\source\repos\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\Juan2\source\repos\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Juan2\source\repos\Sistema bibliotecario\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache

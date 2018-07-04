@@ -26,7 +26,8 @@ namespace Sistema_bibliotecario.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MORA;Initial Catalog=SistemaBibliotecarioDB;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=192.168.1.110,1433;Initial Catalog=SistemaBibliotecarioDB;Persist Sec" +
+            "urity Info=True;User ID=tesi;Password=12345678")]
         public string cn {
             get {
                 return ((string)(this["cn"]));
@@ -36,8 +37,8 @@ namespace Sistema_bibliotecario.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MORA;Initial Catalog=SistemaBibliotecaDBGeneral;Integrated Security=T" +
-            "rue")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=192.168.1.110,1433;Initial Catalog=SistemaBibliotecaDBGeneral;Persist" +
+            " Security Info=True;User ID=tesi;Password=12345678")]
         public string conexion {
             get {
                 return ((string)(this["conexion"]));

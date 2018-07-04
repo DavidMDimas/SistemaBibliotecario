@@ -83,23 +83,33 @@ namespace CapaDatos
 
         public DPrestamo() { }
 
-        public DPrestamo(int idprestamo, string matricula, string tipoprestamo, string isbn, string isbn2, string isbn3,
-            DateTime fecha_prestamo, DateTime primer_renovacion, DateTime segunda_renovacion,
-            string observaciones, string estatus)
+        public DPrestamo(int idprestamo, string matricula, string tipoprestamo, string isbn, string isbn2, string isbn3,DateTime fecha_prestamo, DateTime primer_renovacion, DateTime segunda_renovacion,string observaciones, string estatus)
         {
-            DPrestamo Obj = new DPrestamo();
+            /* DPrestamo Obj = new DPrestamo();
 
-            Obj.IdPrestamo = idprestamo;
-            Obj.Matricula = matricula;
-            Obj.TipoPrestamo = tipoprestamo;
-            Obj.ISBN = isbn;
-            Obj.ISBN2 = isbn2;
-            Obj.ISBN3 = isbn3;
-            Obj.FechaPrestamo = fecha_prestamo;
-            Obj.PrimerRenovacion = primer_renovacion;
-            Obj.SegundaRenovacion = segunda_renovacion;
-            Obj.Observaciones = observaciones;
-            Obj.Estatus = estatus;
+             Obj.IdPrestamo = idprestamo;
+             Obj.Matricula = matricula;
+             Obj.TipoPrestamo = tipoprestamo;
+             Obj.ISBN = isbn;
+             Obj.ISBN2 = isbn2;
+             Obj.ISBN3 = isbn3;
+             Obj.FechaPrestamo = fecha_prestamo;
+             Obj.PrimerRenovacion = primer_renovacion;
+             Obj.SegundaRenovacion = segunda_renovacion;
+             Obj.Observaciones = observaciones;
+             Obj.Estatus = estatus;*/
+
+            this.IdPrestamo = idprestamo;
+            this.Matricula = matricula;
+            this.TipoPrestamo = tipoprestamo;
+            this.ISBN = isbn;
+            this.ISBN2 = isbn2;
+            this.ISBN3 = isbn3;
+            this.FechaPrestamo = fecha_prestamo;
+            this.PrimerRenovacion = primer_renovacion;
+            this.SegundaRenovacion = segunda_renovacion;
+            this.Observaciones = observaciones;
+            this.Estatus = estatus;
         }
 
         public string Insertar(DPrestamo Prestamo)
@@ -160,22 +170,24 @@ namespace CapaDatos
 
                 SqlParameter ParFechaPrestamo = new SqlParameter();
                 ParFechaPrestamo.ParameterName = "@fechaprestamo";
-                ParFechaPrestamo.SqlDbType = SqlDbType.VarChar;
-                ParFechaPrestamo.Size = 50;
+                ParFechaPrestamo.SqlDbType = SqlDbType.Date;
+                //ParFechaPrestamo.Size = 50;
                 ParFechaPrestamo.Value = Prestamo.FechaPrestamo;
                 sqlCmd.Parameters.Add(ParFechaPrestamo);
 
                 SqlParameter ParPrimeraRenovacion = new SqlParameter();
                 ParPrimeraRenovacion.ParameterName = "@primerrenovacion";
-                ParPrimeraRenovacion.SqlDbType = SqlDbType.VarChar;
-                ParPrimeraRenovacion.Size = 50;
+                ParFechaPrestamo.SqlDbType = SqlDbType.Date;
+
+                //ParPrimeraRenovacion.Size = 50;
                 ParPrimeraRenovacion.Value = Prestamo.PrimerRenovacion;
                 sqlCmd.Parameters.Add(ParPrimeraRenovacion);
 
                 SqlParameter ParSegundaRenovacion = new SqlParameter();
                 ParSegundaRenovacion.ParameterName = "@segundarenovacion";
-                ParSegundaRenovacion.SqlDbType = SqlDbType.VarChar;
-                ParSegundaRenovacion.Size = 50;
+                ParFechaPrestamo.SqlDbType = SqlDbType.Date;
+
+                //ParSegundaRenovacion.Size = 50;
                 ParSegundaRenovacion.Value = Prestamo.SegundaRenovacion;
                 sqlCmd.Parameters.Add(ParSegundaRenovacion);
 
@@ -267,22 +279,19 @@ namespace CapaDatos
 
                 SqlParameter ParFechaPrestamo = new SqlParameter();
                 ParFechaPrestamo.ParameterName = "@fechaprestamo";
-                ParFechaPrestamo.SqlDbType = SqlDbType.VarChar;
-                ParFechaPrestamo.Size = 50;
+                ParFechaPrestamo.SqlDbType = SqlDbType.Date;
                 ParFechaPrestamo.Value = Prestamo.FechaPrestamo;
                 sqlCmd.Parameters.Add(ParFechaPrestamo);
 
                 SqlParameter ParPrimeraRenovacion = new SqlParameter();
                 ParPrimeraRenovacion.ParameterName = "@primerrenovacion";
-                ParPrimeraRenovacion.SqlDbType = SqlDbType.VarChar;
-                ParPrimeraRenovacion.Size = 50;
+                ParPrimeraRenovacion.SqlDbType = SqlDbType.Date;
                 ParPrimeraRenovacion.Value = Prestamo.PrimerRenovacion;
                 sqlCmd.Parameters.Add(ParPrimeraRenovacion);
 
                 SqlParameter ParSegundaRenovacion = new SqlParameter();
                 ParSegundaRenovacion.ParameterName = "@segundarenovacion";
-                ParSegundaRenovacion.SqlDbType = SqlDbType.VarChar;
-                ParSegundaRenovacion.Size = 50;
+                ParSegundaRenovacion.SqlDbType = SqlDbType.Date;
                 ParSegundaRenovacion.Value = Prestamo.SegundaRenovacion;
                 sqlCmd.Parameters.Add(ParSegundaRenovacion);
 

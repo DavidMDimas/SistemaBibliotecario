@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaNegocio;
@@ -24,6 +25,15 @@ namespace Sistema_bibliotecario
         public frmBuscarLibro()
         {
             InitializeComponent();
+        }
+
+        public void Busqueda()
+        {
+            Thread th1 = new Thread(new ThreadStart(Busqueda));
+            th1.Start();
+            th1.Join();
+            
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -125,7 +135,8 @@ namespace Sistema_bibliotecario
                 if (rbISBN.Checked == true)
                 {
                     this.dataBusqueda.DataSource = NBusquedas.BusquedasISBN(this.txtBusqueda.Text, dtLibros);
-                }else if (rbTitulo.Checked == true)
+                }
+                else if (rbTitulo.Checked == true)
                 {
                     this.dataBusqueda.DataSource = NBusquedas.BusquedasTitulo(this.txtBusqueda.Text);
                 }

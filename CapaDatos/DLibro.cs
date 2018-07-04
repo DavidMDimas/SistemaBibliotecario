@@ -133,9 +133,7 @@ namespace CapaDatos
 
         }
 
-        public DLibro(int idlibro, string isbn, string titulo, string lenguaje, string editorial, string publicacion, string genero,
-            string disponibilidad, string comentarios, string autores, string edicion, DateTime fechaedicion,
-            int npaginas, string materia, string subgenero, string ubicacion, string tag, string codigobarras, byte[] imagen)
+        public DLibro(int idlibro, string isbn, string titulo, string lenguaje, string editorial, string publicacion, string genero,string disponibilidad, string comentarios, string autores, string edicion, DateTime fechaedicion,int npaginas, string materia, string subgenero, string ubicacion, string tag, string codigobarras, byte[] imagen)
         {
             this.IdLibro = idlibro;
             this.ISBN = isbn;
@@ -251,8 +249,7 @@ namespace CapaDatos
 
                 SqlParameter ParFechaEdicion = new SqlParameter();
                 ParFechaEdicion.ParameterName = "@fechaedicion";
-                ParFechaEdicion.SqlDbType = SqlDbType.VarChar;
-                ParFechaEdicion.Size = 50;
+                ParFechaEdicion.SqlDbType = SqlDbType.Date;
                 ParFechaEdicion.Value = Libro.FechaEdicion;
                 sqlCmd.Parameters.Add(ParFechaEdicion);
 
@@ -413,8 +410,7 @@ namespace CapaDatos
 
                 SqlParameter ParFechaEdicion = new SqlParameter();
                 ParFechaEdicion.ParameterName = "@fechaedicion";
-                ParFechaEdicion.SqlDbType = SqlDbType.VarChar;
-                ParFechaEdicion.Size = 50;
+                ParFechaEdicion.SqlDbType = SqlDbType.Date;
                 ParFechaEdicion.Value = Libro.FechaEdicion;
                 sqlCmd.Parameters.Add(ParFechaEdicion);
 
